@@ -1,6 +1,6 @@
 FROM jboss/switchyard-wildfly
 
-RUN /opt/wildfly/bin/add-user.sh admin admin123! --silent
+RUN /opt/jboss/wildfly/bin/add-user.sh admin admin123! --silent
 
 #
 # Enable port for debugging with --debug
